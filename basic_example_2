@@ -1,0 +1,12 @@
+#!/bin/bash/
+
+echo "What is your name ?"
+read -t 10 name
+#-t parametresi ile 10 saniye içerisinde bu değerin girilmesi gerektiğini belirtmiş oluyoruz.
+
+echo "What is your password?"
+read -s password                                 
+#-s parametresi ile ekrana girilen değeri göstermiyoruz.
+
+echo "Hello $name"
+echo "password : $password"
