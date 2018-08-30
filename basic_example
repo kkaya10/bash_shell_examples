@@ -1,0 +1,5 @@
+#!/bin/bash
+echo “First bash script!"
+
+*ilk satırda belirtilen komut bu script'in nasıl yorumlanacağını belirtir.
+
