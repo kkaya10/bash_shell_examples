@@ -1,0 +1,14 @@
+
+#!/bin/bash
+#girilen sayinin tek mi çift mi olduğunu kontrol eden script
+
+
+sayi=0
+echo "sayi giriniz"
+
+if [$((sayi%2)) -eq 0];then
+  echo "sayi cift"
+else
+  echo "sayi tek"
+fi
+
