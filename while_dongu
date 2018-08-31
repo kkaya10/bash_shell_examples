@@ -1,0 +1,14 @@
+#!/bin/bash
+
+while true
+do
+  echo "Çıkmak için q giriniz"
+  read okunan
+  
+  case $okunan in ([Qq])
+    exit 0
+  esac
+  
+done
+
+  
